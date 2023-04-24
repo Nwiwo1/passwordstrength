@@ -1,28 +1,51 @@
 <!DOCTYPE html>
-<!-- Coding by CodingLab | www.codinglabweb.com-->
-<html lang="en" dir="ltr">
-  <head>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title> Show Password Strength | CodingLab </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
     <link rel="stylesheet" href="style.css">
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
-  </head>
+    
+    <!--===== Boxicons CSS =====-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+     
+    <title>Custom Dropdown Select Menu</title> 
+</head>
 <body>
-  <div class="container">
-    <div class="input-box">
-      <i class="fas fa-eye-slash show_hide"></i>
-      <input spellcheck="false" type="password" placeholder="Enter password">
-    </div>
-    <div class="indicator">
-      <div class="icon-text">
-        <i class="fas fa-exclamation-circle error_icon"></i>
-        <h6 class="text"></h6>
-      </div>
-    </div>
-  </div>
+    <div class="select-menu">
+        <div class="select-btn">
+            <span class="sBtn-text">Select your option</span>
+            <i class="bx bx-chevron-down"></i>
+        </div>
 
-  <script src="script.js"></script>
+        <ul class="options">
+            <li class="option">
+                <i class="bx bxl-github" style="color: #171515;"></i>
+                <span class="option-text">Github</span>
+            </li>
+            <li class="option">
+                <i class="bx bxl-instagram-alt" style="color: #E1306C;"></i>
+                <span class="option-text">Instagram</span>
+            </li>
+            <li class="option">
+                <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
+                <span class="option-text">Linkedin</span>
+            </li>
+            <li class="option">
+                <i class="bx bxl-facebook-circle" style="color: #4267B2;"></i>
+                <span class="option-text">Facebook</span>
+            </li>
+            <li class="option">
+                <i class="bx bxl-twitter" style="color: #1DA1F2;"></i>
+                <span class="option-text">Twitter</span>
+            </li>
+        </ul>
+    </div>
 
+    <script src="script.js"></script>
+         
 </body>
 </html>
